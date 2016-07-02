@@ -1,0 +1,130 @@
+/*基本設定*/
+*{
+    /*一定藥用boorder-box-調整框架*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.content{  
+    border-radius: 50px;
+    border: 5px solid #e2d6d6;
+    background-color:#f7f7f7;
+    width: 392px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 5px 5px 5px #f2e5e5;
+}
+
+.sreen {
+    position: relative;
+    top:90px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color:#716d68;
+    width: 360px;
+    height: 600px;
+}
+
+.Topelement1 {
+    position:relative;
+    top:-590px;
+    left:185px;
+    border-radius: 50%;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+.Topelement2 {
+    position:relative;
+    top:-570px;
+    left:160px;
+    border-radius: 10px;;
+    background-color: black;
+    width: 60px;
+    height: 6px;
+}
+
+.Topelement3 {
+    position:relative;
+    top:-580px;
+    left:130px;
+    border-radius: 50%;
+    background-color: black;
+    width: 12px;
+    height: 12px;
+}
+
+.Topelement4 {
+    position:relative;
+    top:70px;
+    left:160px;
+    border: 2px solid #c9c9c9;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+    width: 65px;
+    height: 65px;
+}
+
+.button1 {
+    overflow: auto;
+    position:absolute;
+    background-color: #bcb8b2;
+    top:200px;
+    left: 752px;
+    width: 5px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.button2 {
+    position:absolute;
+    background-color: #bcb8b2;
+    top:240px;
+    left: 752px;
+    width: 5px;
+    height: 30px;
+    border-radius: 3px;
+}
+.button3 {
+    overflow: auto;
+    position: absolute;
+    background-color: #bcb8b2;
+    top:240px;
+    right: 755px;
+    width: 5px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.media {
+    text-align: center;
+    color: #ffffff;
+    overflow: auto;
+    font-style: italic;
+    font-size: 20px;
+    font-family: inherit;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 300px;
+}
+.media2 {
+    text-align: center;
+    color: #ffffff;
+    overflow: auto;
+    font-style: italic;
+    font-size: 20px;
+    font-family: inherit;
+    width: 100%;
+    height: 50%;
+}

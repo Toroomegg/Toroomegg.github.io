@@ -34,8 +34,7 @@
     width: 40%;
 }
 .thumbnail{
-    width: 100%;
-    max-width: 100%;
+    width: 500px;
     background-color: #ffffff;
     opacity: 0.8;
     margin: 0 auto;

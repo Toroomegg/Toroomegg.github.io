@@ -187,6 +187,7 @@
     float:right;
     width: 100%;
     padding: 30px;
+    margin: 0 auto;
     overflow-y:scroll;
 }
 

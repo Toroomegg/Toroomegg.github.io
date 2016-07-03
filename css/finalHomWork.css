@@ -127,7 +127,7 @@
 }
 .box2 img{
     border-radius: 5%;
-    max-width: 50%;
+    width: 50%;
     height: auto;
 }
 .box3{
@@ -271,5 +271,6 @@
 }
 
 .phone{
-
+    max-width: 50%;
+    height: auto;
 }

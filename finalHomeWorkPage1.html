@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
-    <title>FinalHomeWork</title>
+    <title>EggWorld</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -15,6 +15,10 @@
     <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css">
 	<link rel="stylesheet" type="text/css" href="./css/examples.css">
     <link rel="stylesheet" href="./css/animate.css">
+
+    <link rel="stylesheet" href="./css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="./css/style.css"> <!-- Resource style -->
+	<script src="./js/modernizr.js"></script> <!-- Modernizr -->
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
@@ -56,7 +60,7 @@
                <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Intro</a></li>
                <li data-menuanchor="secondPage"><a href="#secondPage">About Me</a></li>
                <li data-menuanchor="3rdPage"><a href="#3rdPage">Skill</a></li>
-               <li data-menuanchor="4thpage"><a href="#4thpage">HomeWork</a></li>
+               <li data-menuanchor="4thpage"><a href="#4thpage">My Profile</a></li>
                <li data-menuanchor="5thpage"><a href="#5thpage">Where Am I</a></li>
            </ul>
           </div>
@@ -80,12 +84,12 @@
 		 <div class="jumbotron bgimg-2">
                     <div class="container">
                         <div class="row">
-                           <div class="col-md-6 col-sm-5">
+                           <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="box2">
                                     <img src="image/1.jpg" alt="" width="350" height="500">
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-7 showInfo">
+                            <div class="col-md-6 col-sm-6 col-xs-12 showInfo">
                                 <h1>Who am I?</h1>
                                 <ul>
                                     <li><strong>Name:</strong>吳明諶(ㄔㄣˊ) </li>
@@ -113,29 +117,40 @@
           </div>
           <div class="container2">
               <div class="row">
-                      <div class="col-lg-3 col-sm-6 col-xs-12">
+                     <div class="col-lg-1 col-sm-6 col-xs-12">
+                      </div>
+                      <div class="col-lg-2 col-sm-6 col-xs-12">
                           <div class="content">
-                            <div class="box4"><img src="./image/9.jpg" alt=""></div>
-                            <p class="boxPadding">Use "Unity3D" to foundation a interactive Wearing Taiwan Orieginal Group cloth and this exhobition can take photo combine user image both send to E-Mail.</p>
+                            <div class="box5"><img src="./image/14.png" alt=""></div>
+                            <p class="boxPadding">Use "Flash" to make User Interface Animation.</p>
+                            <p class="boxPadding">Use "As3.0" to programming interactive program</p>
                         </div>
                       </div>
-                      <div class="col-lg-3 col-sm-6 col-xs-12">
+                      <div class="col-lg-2 col-sm-6 col-xs-12">
                           <div class="content">
-                            <div class="box4"><img src="./image/10.jpg" alt=""></div>
-                            <p class="boxPadding">Use Flash AS3.0 to foundation a interactive magzine information search system.User can touch the touch sreen to interactive witf virtul word and get som infromation.</p>
+                            <div class="box5"><img src="./image/17.png" alt=""></div>
+                            <p class="boxPadding">Use Basic "Java" to coding arduino borad program,and it can communication with other program to do something.Ex:Light,Fan such as electrics.</p>
                         </div>
                       </div>
-                      <div class="col-lg-3 col-sm-6 col-xs-12">
+                      <div class="col-lg-2 col-sm-6 col-xs-12">
                           <div class="content">
-                            <div class="box4"><img src="./image/11.jpg" alt=""></div>
-                            <p class="boxPadding">Use "Arduino Rfid + Flash As3.0" to creat HCI interface.User can take Rfid Tag to trigger game and ge something intersting interactive with Taiwan tranditional build.</p>
+                            <div class="box5"><img src="./image/19.png" alt=""></div>
+                            <p class="boxPadding">"Unity 3D", the main software to do project and explore appliction program.And use "C#" or "JavaScript" to programming interactive program</p>
                         </div>
                       </div>
-                      <div class="col-lg-3 col-sm-6 col-xs-12">
+                      <div class="col-lg-2 col-sm-6 col-xs-12">
                           <div class="content">
-                            <div class="box5"><img src="./image/12.jpg" alt=""></div>
-                            <p class="boxPadding">Sometimes I draw some small paint,cause when i was child,i have full with art enviroment in my home.So grow up the skill.</p>
+                            <div class="box5"><img src="./image/18.png" alt=""></div>
+                            <p class="boxPadding">Use "Java" to programming interactive program</p>
                         </div>
+                      </div>
+                      <div class="col-lg-2 col-sm-6 col-xs-12">
+                          <div class="content">
+                            <div class="box5"><img src="./image/16.png" alt=""></div>
+                            <p class="boxPadding">Use "Html5 + CSS" to build web.and use "Bootstrap" to make "RWD" web form.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-1 col-sm-6 col-xs-12">
                       </div>
                       </div>
                   </div>
@@ -145,18 +160,339 @@
 <!--page4-->
 	<div class="section" id="section3">
         <div class="bgimg-4">
-         <div class="row">
-               <div class="col-md-4 col-sm-12">
+            <div class="row">
+               <div class="col-md-12 col-sm-12">
                    <div class="box4">
-                      <h1>HomeWork Area!</h1>              
+                      <h1>My Profile!</h1>              
                   </div>
                </div>
-               <div class="col-md-8 col-sm-12">
-                     <div class="phone">
-                         <iframe width="600" height="900" src="http://toroomegg.github.io/EggWorld.github.io/Iphone6.html" frameborder="0" scrolling="no"></iframe>
-                     </div>
+            </div>
+               <div class="row">
+               <div class="col-md-12 col-sm-12">
+                  <section class="cd-horizontal-timeline">
+                    <div class="timeline">
+                        <div class="events-wrapper">
+                            <div class="events">
+                                <ol>
+                                    <li><a href="#0" data-date="15/09/2008" class="selected">15 Sep</a></li>
+                                    <li><a href="#0" data-date="28/06/2009">28 Jun</a></li>
+                                    <li><a href="#0" data-date="20/03/2010">20 Mar</a></li>
+                                    <li><a href="#0" data-date="10/09/2010">10 Sep</a></li>
+                                    <li><a href="#0" data-date="15/03/2011">15 Mar</a></li>
+                                    <li><a href="#0" data-date="15/02/2012">15 Feb</a></li>
+                                    <li><a href="#0" data-date="02/05/2012">09 May</a></li>
+                                    <li><a href="#0" data-date="09/06/2012">09 Jun</a></li>
+                                    <li><a href="#0" data-date="15/07/2012">15 July</a></li>
+                                    <li><a href="#0" data-date="26/08/2012">26 Aug</a></li>
+                                    <li><a href="#0" data-date="01/10/2012">01 Oct</a></li>
+                                    <li><a href="#0" data-date="10/11/2012">10 Nov</a></li>
+                                    <li><a href="#0" data-date="06/12/2012">06 Dec</a></li>
+                                    <li><a href="#0" data-date="29/01/2013">29 Jan</a></li>
+                                    <li><a href="#0" data-date="03/05/2013">3 May</a></li>
+                                    <li><a href="#0" data-date="20/06/2013">20 Jun</a></li>
+                                    <li><a href="#0" data-date="12/08/2013">12 Aug</a></li>
+                                    <li><a href="#0" data-date="05/10/2013">05 Oct</a></li>
+                                    <li><a href="#0" data-date="25/12/2013">25 Dec</a></li>
+                                    <li><a href="#0" data-date="20/01/2014">20 Jen</a></li>
+                                    <li><a href="#0" data-date="09/03/2014">09 Mar</a></li>
+                                    <li><a href="#0" data-date="18/05/2014">18 May</a></li>
+                                    <li><a href="#0" data-date="06/07/2014">06 July</a></li>
+                                    <li><a href="#0" data-date="15/10/2014">15 Oct</a></li>
+                                    <li><a href="#0" data-date="15/03/2015">15 Mar</a></li>
+                                    <li><a href="#0" data-date="20/05/2015">20 May</a></li>
+                                    <li><a href="#0" data-date="16/08/2015">16 Aug</a></li>
+                                    <li><a href="#0" data-date="19/04/2016">19 April</a></li>
+                                    <li><a href="#0" data-date="01/06/2016">01 Jun</a></li>
+                                </ol>
+
+                                <span class="filling-line" aria-hidden="true"></span>
+                            </div> <!-- .events -->
+                        </div> <!-- .events-wrapper -->
+
+                        <ul class="cd-timeline-navigation">
+                            <li><a href="#0" class="prev inactive">Prev</a></li>
+                            <li><a href="#0" class="next">Next</a></li>
+                        </ul> <!-- .cd-timeline-navigation -->
+                    </div> <!-- .timeline -->
+
+                    <div class="events-content">
+                        <ol>
+                            <li class="selected" data-date="15/09/2008">
+                                <h2>研究所實驗作品-玩古</h2>
+                                <em>September 15th, 2008</em>
+                                <p>	
+                                    使用者可操作互動裝置與名畫互動，在互動過程中藝術品轉化為3D畫面，呈現在牆上畫框中，並與使用者說故事與表演中國古代樂器及童玩等。運用AR技術去實做及呈現。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2008_1.jpg" alt="">
+                            </li>
+
+                            <li data-date="28/06/2009">
+                                <h2>研究所實驗作品-對畫</h2>
+                                <em>June 28th, 2009</em>
+                                <p>	
+                                    運用AR技術去實做各種互動模式的實驗，以Virtools軟體去實做，探討AR技術中如何增加多模互動方式去增添作品遊戲的豐富性。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2009_1.jpg" alt="">
+                            </li>
+                            <li data-date="20/03/2010">
+                                <h2>研究所實驗作品-音樹花</h2>
+                                <em>March 20th, 2010</em>
+                                <p>	
+                                    以擴增實境辨識技術中的Markerless為主，設定兩個自然特徵辨識圖案，在裝置上方埋藏了一組紅外線測距電子感測零件。使用者在互動只需靠近裝置或者是運用人本互動輸入將裝置放置、挪移、旋轉、靠近等訊號輸入即可，達到直覺的互動介面。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2010_1.jpg" alt="">
+                            </li>
+                            <li data-date="10/09/2010">
+                                <h2>第五屆KT科技藝術競賽-聚合物</h2>
+                                <em>September 10th, 2010</em>
+                                <p>	
+                                    透過即時錄影與播放呈現的互動藝術作品。作品利用視訊攝影機擷取即時影像，並結合電腦視覺偵測使用者目前人像個數、動態，將所偵測到的資訊轉換為即時音樂表現。此作品入圍第五屆KT科技藝術競賽。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2011_1.jpg" alt="">
+                            </li>
+                            <li data-date="15/03/2011">
+                                <h2>國軍登入</h2>
+                                <em>March 15th, 2011</em>
+                                <p>	
+                                    void Start(){當兵;}
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2011_3.jpg" alt="">
+                            </li>
+                            <li data-date="15/02/2012">
+                                <h2>國軍登入</h2>
+                                <em>February 15th, 2012</em>
+                                <p>	
+                                    退伍，為國軍貢獻了青春與汗水，當然還有專業。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2011_2.jpg" alt="">
+                            </li>
+                            <li data-date="02/05/2012">
+                                <h2>The First Job</h2>
+                                <em>May 2th, 2012</em>
+                                <p>	
+                                    進入職場後正式與專業的製案流程接軌，學習了團隊合作、分工、討論及時程的規劃，並提供有創意的點子與設計思維。熱愛嘗試不同類型的案例，讓我揮灑創意與實踐能力的空間，讓工作不變成終生學習的方向，持續努力，鑽研。
+                                </p>
+                                <p>
+                                    【2012年~現在  仍在職  互動設計師】    
+                                </p>
+                                <p>   
+                                    工作公司與職稱:頑石創意股份有限公司  
+                                </p>
+                                <p>    
+                                    工作內容:Interaction  Designer
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_0.jpg" alt="">
+                            </li>
+                            <li data-date="09/06/2012">
+                                <h2>親子故宮-坤輿全圖互動劇場</h2>
+                                <em>June 9th, 2012</em>
+                                <p>	
+                                    互動空間配合聲光風扇的互動劇場，內容物是故宮的坤與全圖，目的透過互動方式讓觀眾了解此圖的由來、精隨，使用KINECT感測使用者的位置與動作來進行互動遊戲，不同場景會有不同的燈光色與風扇轉動，使觀眾身歷其境。本人負責燈光風扇的單晶片成式撰寫與互動程式溝通。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_1.jpg" alt="">
+                            </li>
+                            <li data-date="15/07/2012">
+                                <h2>四季-夏荷</h2>
+                                <em>July 15th, 2012</em>
+                                <p>	
+                                    互動地板，內容是故宮的太液荷風古畫改編成互動展品，使用KINECT偵測觀眾位置來與虛擬物件互動並觸發互動機制。並搭配程式去控制風扇，使觀眾更沉浸在此互動展品中。本人負責風扇控制，單晶片程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_2.jpg" alt="">
+                            </li>
+                            <li data-date="26/08/2012">
+                                <h2>科博館-探索背包遊戲製作</h2>
+                                <em>August 26th, 2012</em>
+                                <p>	
+                                    使用平板做為學習載具，搭配博物館中各區的QRCODE來進行學習路線軌跡，使在參觀之虞可以運用數位媒體科技來加深體驗經驗與趣味性。本人負責內部遊戲製作。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_3.jpg" alt="">
+                            </li>
+                            <li data-date="01/10/2012">
+                                <h2>台中國資圖-AR互動機台</h2>
+                                <em>October 1st, 2012</em>
+                                <p>	
+                                    小朋友可以邊看故事的導引邊拿著AR的TAG去觸發整個故事流程，透過不同TAG的互動機制而播放不同的動畫卡通。本人負責動畫播放與接受圖卡資訊端程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_4.jpg" alt="">
+                            </li>
+                            <li data-date="10/11/2012">
+                                <h2>北京文博會</h2>
+                                <em>November 10th, 2014</em>
+                                <p>	
+                                    沉浸式互動牆、互動地板，使觀眾在空間中移動做為互動介面，以KINECT偵測空間中的人是否觸發到設定點以做為虛實交互的展覽方式，風格以中國古典畫作為視覺呈現方式。本人負責互動牆部分。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_5.jpg" alt="">
+                            </li>
+                            <li data-date="06/12/2012">
+                                <h2>資訊展-數位典藏推廣互動機台</h2>
+                                <em>December 6th, 2012</em>
+                                <p>	
+                                    資訊月在世貿展出全台灣數位典藏資訊導覽機台，使用了RFID技術與互動程式撰寫。參與者可拿著感應裝置去處發各縣市的TAG來進行動畫影片導覽介紹。本人負責單晶片程式與導覽機台程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2012_6.jpg" alt="">
+                            </li>
+                            <li data-date="29/01/2013">
+                                <h2>北美館 典藏品修復展互動機台</h2>
+                                <em>January 29th, 2013</em>
+                                <p>	
+                                    館方挑選幾幅已毀損並且經過修復過的畫作作為讓觀眾體驗內容，透過互動的方式讓觀眾了解修復的過程、流程、步驟與方式。互動介面為觸控螢幕，並有投影機同步使用者操作畫面可以給其他民眾觀看操作過程。本人負責互動程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2013_1.jpg" alt="">
+                            </li>
+                            <li data-date="03/05/2013">
+                                <h2>國父紀念館-國父與台灣</h2>
+                                <em>May 3rd, 2013</em>
+                                <p>	
+                                    國父書房的互動展演裝置配合浮空投影，作品述說國父在她的書房中寫書法的展示，百葉窗投影著國父穿過書房的剪影，並配合書房燈光控制與浮空投影呈現整串的互動展演。本人負責展演程式、單晶片控燈程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2013_2.jpg" alt="">
+                            </li>
+                            <li data-date="20/06/2013">
+                                <h2>國父紀念館-國父與台灣</h2>
+                                <em>June 20th, 2013</em>
+                                <p>	
+                                    駐蹕估蘇互動裝置內容為乾隆下江南的主軸，經過了四大場景，每個場景詳細的呈現市井小民的談吐交流與畫面，須透過感應器去觸發。本人負責感應器單晶片與程式端溝通程式撰寫。大清六帝互動裝置為非接觸式感應互動裝置，分別觸摸到指定皇帝感測區，畫面將撥放該皇帝的影片介紹，並且燈箱亮起做為民眾導引提示。本人負責程式、單晶片程式撰寫、感測器製作。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2013_3.jpg" alt="">
+                            </li>
+                            <li data-date="12/08/2013">
+                                <h2>傳統藝術中心-傳家工藝</h2>
+                                <em>August 12th, 2013</em>
+                                <p>	
+                                    在傳統藝術中心展出工藝品的製作流程互動機台，本人負責是木雕的製作流程，透過互動觸控螢幕進行遊戲。經過體驗後，觀眾可以得知木雕的工具、繁瑣的步驟至上色階段，每個流程都是不可以馬虎。此互動機台一方面做為數位典藏用圖使用，本人負責互動程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2013_4.jpg" alt="">
+                            </li>
+                            <li data-date="05/10/2013">
+                                <h2>OPENZ特展</h2>
+                                <em>October 5th, 2013</em>
+                                <p>	
+                                    高雄駁二特區的OPENZ特展，負責製作拉霸機機台與浮空投影燈控、滾草堆互動遊戲裝置偵測程式撰寫。拉霸機機台互動模式為觸控螢幕，以拖拉螢幕中的拉霸做為遊戲的互動機制。浮空投影則是計算影片長度並訂時控制燈光的明暗以讓浮空投影呈像。本人負責互動程式、單晶片程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2013_5.jpg" alt="">
+                            </li>
+                            <li data-date="25/12/2013">
+                                <h2>遠雄人文博物館-建築狂想曲</h2>
+                                <em>December 25th, 2013</em>
+                                <p>	
+                                    本作品互動介面為觸控螢幕，透過店選螢幕中的選項可以了解未來的建築構造、形狀，因地制宜、因氣候而改變，而點選到的建築燈箱即亮起做為導引。本人負責程式、單晶片程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2013_6.jpg" alt="">
+                            </li>
+                            <li data-date="20/01/2014">
+                                <h2>陳澄波互動展</h2>
+                                <em>Jenuary 20th, 2014</em>
+                                <p>	
+                                    本展覽是實現已故的台灣畫家「陳澄波」先生的光影畫作互動展，本人負責畫作重現的觸控機台，有四幅畫，分別分布四個觸控螢幕。內容為修復畫作中的清潔、補色、光照，使用者透過互動方式可以看到在這幅畫作底下不為人知的祕密。本人負責互動程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2014_1.jpg" alt="">
+                            </li>
+                            <li data-date="09/03/2014">
+                                <h2>無錫 大運河數字博物館</h2>
+                                <em>March 9th, 2014</em>
+                                <p>	
+                                    所有互動機台的互動感應方式程式撰寫、與感測方式規劃製作。此專案運用紅外線感測、按鈕感測、燈光控制等單晶片程式並與互動程式溝通，本人負責單晶片程式撰寫及感測器安裝置作。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2014_2.jpg" alt="">
+                            </li>
+                            <li data-date="18/05/2014">
+                                <h2>傳統藝術中心-傳藝科發</h2>
+                                <em>May 18th, 2014</em>
+                                <p>	
+                                    展出內容為廟堂匠藝，意思是傳統廟宇建築物中的交趾陶、木座、石雕、彩繪等等技藝與故事由來介紹，使用者可以拿著RFID卡片去感應想看的部分並以觸控螢幕做為互動介面去點選得到資訊。本人負責互動、單晶片程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2014_3.jpg" alt="">
+                            </li>
+                            <li data-date="06/07/2014">
+                                <h2>科博館-平板遊戲</h2>
+                                <em>July 06th, 2014</em>
+                                <p>	
+                                    新增了海底生物的單元內容，做為探討生物多樣性的延伸。使用者亦可點選觸控螢幕進行互動，並及時回饋所對應的資訊。某些單元以遊戲方式進行限時作答，增添遊戲性。本人負責互動程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2014_4.jpg" alt="">
+                            </li>
+                            <li data-date="15/10/2014">
+                                <h2>新北圖書館-兒童遊戲</h2>
+                                <em>October 15th, 2014</em>
+                                <p>	
+                                    此互動裝置為大型觸控螢幕，分做成人版與兒童版。遊戲內容為兒童版圖書館導覽遊戲，有借閱書籍的編號遊戲、查詢書目的遊戲、在圖書館的基本禮貌等等互動。而成人版的內容為新北市圖書館的一些資訊顯示。本人負責互動遊戲程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2014_5.jpg" alt="">
+                            </li>
+                            <li data-date="15/03/2015">
+                                <h2>新北圖書館-資訊方塊-新到雜誌</h2>
+                                <em>March 15th, 2015</em>
+                                <p>	
+                                    此為新北市圖資訊方塊機台下的子遊戲，內容則是顯現該月份獲該季新到的雜誌，使用者可以去點選並獲取到雜誌資訊。而程式端可透過後台上搞圖片與文字去新增雜誌內容與數量。本人負責互動資訊程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2015_1.jpg" alt="">
+                            </li>
+                            <li data-date="20/05/2015">
+                                <h2>新北圖書館-資訊方塊-原住民服裝穿衣鏡</h2>
+                                <em>May 20th, 2015</em>
+                                <p>	
+                                    本裝置以原住民服裝為主題，玩家可以去點選所要試穿的原住民衣賞，透過KINECT偵測玩家骨架，讓衣服可以跟隨玩家，並浮貼的合在玩家身上。此裝置可以拍照並寄出信件做為留存作用。本人負責互動遊戲程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2015_2.jpg" alt="">
+                            </li>
+                            <li data-date="16/08/2015">
+                                <h2>冠德圖書館-兒童美育遊戲</h2>
+                                <em>August 16th, 2015</em>
+                                <p>	
+                                     本作品為兒童美育學習的互動遊戲，透過遊戲提示去點選圖像中有用到哪些積木去組合而成的，並限時作答。然而答對後則會出現可愛的動畫吸引小朋友玩樂的興致。本人負責互動遊戲程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2015_3.jpg" alt="">
+                            </li>
+                            <li data-date="19/04/2016">
+                                <h2>冠德圖書館-兒童美育遊戲2</h2>
+                                <em>April 19th, 2016</em>
+                                <p>	
+                                     此為互動修復清潔畫作遊戲，以頑石創意的自制動畫片卡茲幫為圖片內容，玩家可以依照步驟去進行互動遊戲流程。本人負責互動遊戲程式撰寫。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2016_1.jpg" alt="">
+                            </li>
+                            <li data-date="01/06/2016">
+                                <h2>台大校園地景互動遊戲</h2>
+                                <em>June 1st, 2016</em>
+                                <p>	
+                                     此互動作品為一個全國各大學的資訊查詢互動資訊機台，使用者首先可以先點選想看的縣市，接著會出現該縣市指定的大專院校並以拖曳的方式進行瀏覽該大學資訊，左側的台灣地圖上會亮起該大學的LED燈。進入下個步驟會出現大學的地圖，上面會有著名的大學景點與資訊供使用者點選，當使用者點選同時上方螢幕會做同步去顯示該景點的照片與資訊。本人負責互動程式、單晶片程式撰寫與製作。
+                                </p>
+                                <br>
+                                <img class="MyProfileImg" src="./image/profile/2016_2.jpg" alt="">
+                            </li>
+                        </ol>
+                    </div> <!-- .events-content -->
+                </section>   
                </div>
-               </div>
+            </div>
         </div> 
 	</div>
 <!--page5-->
@@ -191,6 +527,8 @@
   </a>
 </div>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="./js/wow.min.js"></script>
 <script>
